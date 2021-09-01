@@ -1,0 +1,317 @@
+/* extra large device */
+
+@media(min-width:1200px) and (max-width:1399.98px) {
+    #touch .form-fill form input {
+        width: 349px;
+    }
+}
+
+
+/* large device */
+
+@media(min-width:992px) and (max-width:1199.98px) {
+    #touch .form-fill form input {
+        width: 289px;
+    }
+    #feedback .feedback-img-slider .feedback-image:first-of-type {
+        margin-left: 30px;
+    }
+    #feedback .feedback-img-slider .slick-dots {
+        bottom: 41%;
+    }
+    #touch {
+        margin-top: -136px;
+    }
+    #feedback .feedback-img-slider .feedback-image {
+        padding-bottom: 20px;
+    }
+}
+
+
+/* medium device */
+
+@media(min-width:768px) and (max-width:991.98px) {
+    .navbar-light .navbar-toggler {
+        color: #ffff;
+        border-color: #ffff;
+    }
+    .navbar .navbar-nav {
+        background: #1da1f2;
+        text-align: center;
+    }
+    #about .about-text .details {
+        padding: 0 14px;
+    }
+    #home .banner-slider .banner-image .banner-text {
+        padding-right: 20px;
+    }
+    #about .about-text .details p.display {
+        display: none;
+    }
+    #team .team-menu .team-item.under-space {
+        margin-bottom: 170px;
+    }
+    #team .team-menu .team-item .team-text {
+        bottom: -51%;
+    }
+    #team .team-menu .team-item .team-text h4 {
+        padding-top: 5px;
+    }
+    #touch .form-fill form input {
+        width: 209px;
+    }
+    #features .features-about .security .lock::before {
+        width: 213px;
+    }
+}
+
+
+/* small device */
+
+@media(min-width:576px) and (max-width:767.98px) {
+    .navbar-light .navbar-toggler {
+        color: #ffff;
+        border-color: #ffff;
+    }
+    .navbar .navbar-nav {
+        background: #1da1f2;
+        text-align: center;
+    }
+    #about .about-text .details {
+        padding: 0 0px;
+    }
+    #about {
+        margin-top: 23px;
+    }
+    #about .about-text .details p {
+        margin-bottom: 0;
+    }
+    #about .about-image {
+        margin-top: 20px;
+    }
+    #team .team-menu .team-item .team-member {
+        margin-bottom: 160px;
+    }
+    #team .team-menu .team-item .team-text {
+        bottom: -33%;
+    }
+    #feedback-heading {
+        margin-top: 7px;
+    }
+    #feedback .feedback-img-slider .feedback-image:first-of-type {
+        margin-left: 35px;
+    }
+    #touch .form-fill form input {
+        width: 149px;
+    }
+    #home .banner-slider .banner-image .banner-text {
+        padding-right: 40px;
+    }
+    #home .banner-slider .banner-image .app-store {
+        padding-right: 40px;
+    }
+}
+
+
+/* extra small device */
+
+@media(max-width:575.98px) {
+    .navbar .navbar-nav {
+        background: #1da1f2;
+        text-align: center;
+    }
+    .navbar-light .navbar-toggler {
+        color: #ffff;
+        border-color: #ffff;
+    }
+    #home .banner-slider .banner-image .banner-text {
+        padding-right: 40px;
+    }
+    #home .banner-slider .banner-image .app-store {
+        padding-right: 40px;
+    }
+    #feedback .feedback-img-slider .feedback-image:first-of-type {
+        margin-left: 4px;
+    }
+    #touch .form-fill form input {
+        width: 242px;
+        margin-bottom: 10px;
+    }
+    #team .team-menu .team-item .team-text {
+        display: none;
+    }
+    #team .team-menu .team-item .team-member {
+        margin-bottom: 55px !important;
+    }
+    #touch .form-fill form textarea {
+        height: 100px;
+    }
+    #team .team-menu .team-item .team-text p {
+        padding: 0px 0px;
+    }
+    #home .banner-slider .banner-image .app-store .store .store-details h3 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #home .banner-slider .banner-image .app-store .store .store-details h2 {
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #home .banner-slider .banner-image .app-store .store .store-details {
+        top: 13px;
+        left: 41px;
+    }
+    #home .banner-slider .banner-image .app-store .store .android {
+        top: 10px;
+        left: -11px;
+    }
+    #feedback-heading {
+        margin-top: 0;
+    }
+    #about .about-text .details {
+        padding: 0 0px;
+    }
+    #features .features-about .global {
+        padding-top: 10px;
+    }
+    #features .features-about .global p.remove {
+        display: none;
+    }
+    #footer .social-icon ul li {
+        margin-right: 2px;
+    }
+    #feedback .feedback-slider .feedback-item .feedback-details p {
+        padding: 0 0px;
+        margin: 0;
+    }
+    #about .about-text .heading .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #about .about-text .heading .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #about .about-text .heading h3::before {
+        bottom: -25px;
+        left: 36%;
+        transform: translateX(-50%);
+    }
+    #about .about-text .heading h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #features .features-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #features .features-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #features .features-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #features .features-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #screenshots .screenshots-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #screenshots .screenshots-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #screenshots .screenshots-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #screenshots .screenshots-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #video-heading .video-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #video-heading .video-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #video-heading .video-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #video-heading .video-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #pricing .pricing-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #pricing .pricing-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #pricing .pricing-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #pricing .pricing-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #team .team-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #team .team-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #team .team-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #team .team-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #feedback-heading .feedback-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #feedback-heading .feedback-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #feedback-heading .feedback-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #feedback-heading .feedback-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+    #touch .touch-text .heading-line h3::before {
+        bottom: -25px;
+        left: 36%;
+    }
+    #touch .touch-text .heading-line h3::after {
+        bottom: -27px;
+        left: 34.8%;
+    }
+    #touch .touch-text .heading-line .border-line::before {
+        bottom: -17px;
+        left: 63%;
+    }
+    #touch .touch-text .heading-line .border-line::after {
+        bottom: -19px;
+        left: 64.3%;
+    }
+}
